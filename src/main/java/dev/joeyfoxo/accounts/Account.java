@@ -21,13 +21,6 @@ public abstract class Account {
 
      }
 
-     public void makePayment(LoanAccount account, double depositAmount) {
-
-          account.balance += depositAmount;
-          balance -= depositAmount;
-
-     }
-
 
 
 

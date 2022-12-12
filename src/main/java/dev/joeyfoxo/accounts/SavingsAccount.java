@@ -13,7 +13,7 @@ public class SavingsAccount extends Account {
         super();
     }
 
-    public void addIntrest() {
+    public void addInterest() {
 
         double balanceToBeAdded = balance * intrestRate;
         balance += balanceToBeAdded;

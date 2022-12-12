@@ -8,11 +8,18 @@ public class LoanAccount extends Account {
         super(balance);
     }
 
-    public void addIntrest() {
+    public void addInterest() {
 
         double balanceToBeAdded = balance * intrestRate;
         balance += balanceToBeAdded;
         System.out.println(balance);
+
+    }
+
+    public void makePayment(CurrentAccount account, double depositAmount) {
+
+        balance -= depositAmount;
+        account.balance -= depositAmount;
 
     }
 

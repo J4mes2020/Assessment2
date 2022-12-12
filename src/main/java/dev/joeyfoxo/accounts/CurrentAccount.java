@@ -11,11 +11,11 @@ public class CurrentAccount extends Account {
     public CurrentAccount() {
     }
 
-    public void addIntrest() {
+    public void addInterest() {
 
         double balanceToBeAdded = balance * intrestRate;
         balance += balanceToBeAdded;
-        System.out.println(balance);
+        System.out.println("Your new interest is " + balanceToBeAdded);
 
     }
 }
