@@ -27,6 +27,7 @@ public class Application {
                 account.makeDeposit(depositAmmount);
                 loanAccount.makePayment(account, paymentAmount);
                 account.addInterest();
+                loanAccount.addInterest();
                 counter++;
             }
 

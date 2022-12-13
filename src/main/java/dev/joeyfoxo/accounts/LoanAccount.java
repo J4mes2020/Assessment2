@@ -14,5 +14,13 @@ public class LoanAccount extends Account {
         account.balance -= depositAmount;
     }
 
+    @Override
+    public void addInterest() {
+
+        double balanceToBeAdded = balance * intrestRate;
+        balance += balanceToBeAdded;
+
+    }
+
 
 }
