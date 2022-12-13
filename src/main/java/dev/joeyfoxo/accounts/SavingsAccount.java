@@ -13,11 +13,11 @@ public class SavingsAccount extends Account {
         super();
     }
 
+    @Override
     public void addInterest() {
 
         double balanceToBeAdded = balance * intrestRate;
         balance += balanceToBeAdded;
-        System.out.println(balance);
 
     }
 

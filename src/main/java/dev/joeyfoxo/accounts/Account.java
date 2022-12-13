@@ -17,14 +17,13 @@ public abstract class Account {
 
      public void makeDeposit(double amount) {
           balance = balance + amount;
-          System.out.println("The new balance is " + balance);
 
      }
 
+     public void setBalance(int newBalance) {
+          balance = newBalance;
+     }
 
-
-
-
-
-
+     public void addInterest() {
+     }
 }
